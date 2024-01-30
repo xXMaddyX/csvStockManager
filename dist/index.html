@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="product-counter">
+                <h1 class="products-count">Produkte:</h1>
+            </div>
+            <div class="product-options">
+                <button id="exportCSV">CSV Exportieren</button>
+                <button id="add-product">Produkt Hinzufügen</button>
+                <input type="text" class="search-field" placeholder="Artikel suchen...">
+                <button class="search-button">Suchen</button>
+            </div>
+        </div>
+        <div class="inputField">
+            <div class="input-heading">
+                <h1>Artikel Hinzufügen</h1>
+            </div>
+            <div class="input">
+                <div class="inputfields">
+                    <p>Artikelnummer</p>
+                    <input type="text" placeholder="Art-Nr. Eingeben">
+                    <p>Artikelname</p>
+                    <input type="text" placeholder="Art-Name Eingeben">
+                    <p>Hersteller</p>
+                    <input type="text" placeholder="Hersteller Eingeben">
+                    <p>Artikel Beschreibung</p>
+                    <input type="text" placeholder="Artikel Beschreibung Eingeben">
+                    <p>Materialangaben</p>
+                    <input type="text" placeholder="Anaben zum Material">
+                    <p>Geschlecht</p>
+                    <input type="text" placeholder="Geschlecht Eingeben">
+                    <p>Produktart</p>
+                    <input type="text" placeholder="Artikelart Eingeben">
+                    <p>Ärmel</p>
+                    <input type="text" placeholder="Wenn zutreffend">
+                    <p>Bein</p>
+                    <input type="text" placeholder="Wenn zutreffend">
+                    <p>Kragen</p>
+                    <input type="text" placeholder="Wenn zutreffend">
+                    <p>Herstellung</p>
+                    <input type="text" placeholder="Fair & Umweltfreundlich etc.">
+                    <p>Taschenart</p>
+                    <input type="text" placeholder="Wenn zutreffend">
+                    <p>Grammatur</p>
+                    <input type="text" placeholder="Grammatur Eingeben">
+                    <p>Material</p>
+                    <input type="text" placeholder="Artikel Material Eingeben">
+                    <p>Ursprungsland</p>
+                    <input type="text" placeholder="Herkunftsland Eingeben">
+                    <p>Bild</p>
+                    <input type="text" placeholder="ggf. IMG Link">
+
+                </div>
+            </div>
+            <div class="input-buttons">
+                <button id="send">Senden</button>
+                <button id="cancel">Abbrechen</button>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="add-product active">
+
+        </div>
+        <div class="product-container-head">
+        </div>
+        <div class="product-container">
+            <div class="product-display">
+
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    /*BasicFont Style*/
+    --mainFont: sans-serif;
+    --mainHeader: Tahoma;
+
+    /*Basic Params*/
+    --basicPadding: 10px;
+    --basicBoxShadow: 0px 0px 8px black;
+    
+    /*Button Form*/
+    --buttonPadding: 5px;
+    --buttonBorderRadius: 10px;
+    --buttonColor: rgb(70, 70, 255);
+    --buttonFontColor: white;
+    --buttonFontWeight: 600;
+    --buttonBoxShadow: 0px 0px 10px black inset, 0px 0px 20px black inset;
+}
